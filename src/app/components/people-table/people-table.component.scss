@@ -1,0 +1,51 @@
+table {
+  width: 100%;
+}
+
+hr{
+  margin: 0;
+}
+
+.ancho-divs{
+  width: 90%; max-width: 950px; margin: auto;
+}
+
+
+.mat-table {
+  width: 100%;
+}
+
+/* Estilos para la tabla */
+.mat-header-row, .mat-row {
+  th, td {
+    padding: 10px; /* Espacio interno */
+    text-align: left;
+  }
+}
+
+.mat-sort-header-container.mat-focus-indicator{
+  justify-content: center;
+}
+
+.thtext {
+
+  font-weight: bold;
+
+}
+
+/* Estilos para el paginador */
+.mat-paginator {
+  margin-top: 20px; /* Espacio entre la tabla y el paginador */
+}
+
+/* Estilos para la fila sin datos */
+.mat-row.mat-no-data {
+  font-style: italic;
+  color: #999; /* Color de texto más suave */
+}
+
+/* Estilos para la celda de no datos */
+.mat-cell.mat-no-data {
+  padding: 20px;
+}
+
